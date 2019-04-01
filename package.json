@@ -1,0 +1,39 @@
+{
+  "name": "sample-nextjs-project",
+  "version": "1.0.0",
+  "description": "Next.js project for sample routing and task examples",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/server.js",
+    "build": "cross-env NODE_ENV=production next build",
+    "start": "cross-env NODE_ENV=production node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikramhasib007/sample-nextjs-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikramhasib007/sample-nextjs-project/issues"
+  },
+  "homepage": "https://github.com/ikramhasib007/sample-nextjs-project#readme",
+  "browserslist": [
+    "> 1%",
+    "IE 10"
+  ],
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.20",
+    "next": "^8.0.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "nodemon": "^1.18.10"
+  }
+}
